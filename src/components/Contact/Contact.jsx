@@ -1,5 +1,5 @@
 import { ContactBtn, Text, ListItem } from './Contact.styled';
-import { delateContact } from 'components/redux/contactSlice';
+import { delateContact } from 'redux/contactSlice';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 
